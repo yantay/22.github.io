@@ -37,12 +37,12 @@ text-shadow : none;
   width: 100%;
   height: 85px;
   background: #fff;
-  z-index: 5;
+  z-index: 41;
 }
 
 .logo {
   position: absolute;
-  direction: block;
+  display: block;
   left: 50px;
   margin: 20px;
 }
@@ -51,6 +51,7 @@ text-shadow : none;
   position: absolute;
   display: flex;
   right: 50px;
+  z-index: 10;
 }
 
 .nav__item {
@@ -203,4 +204,167 @@ p {
   font-size: 2rem;
   margin-top: 100px;
   text-align: center;
+}
+
+.burger {display: none;
+  position: relative;
+  z-index: 40;}
+
+.phone {display: none}
+
+@media only screen and (max-width: 1145px) {
+  .nav {font-size: 1.2em}
+  .comp {display: none;}
+  .phone {display: block;}
+  .glavnaya {
+    display: block;
+  }
+  .glavnaya {display: block;
+    padding: 0px 50px;}
+  .about, .director {
+    width: 100%;
+    margin: 50px 0px;
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .nav {
+    height: 60px;
+    z-index: 49;
+    font-size: 1.5em;
+  }
+
+   .logo {
+    z-index: 50;
+    text-align: center;
+    left: auto;
+    margin: 0px;
+    width: 200px;
+  height: 55px;
+  padding-top: 5px;
+  background: #fff;
+  }
+
+  .burger {
+    display: block;
+    position: absolute;
+    right: 30px;
+    width: 30px;
+    height: 20px;
+    top: 20px;
+  }
+
+  .burger span{
+    content: '';
+    background-color: #000;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    border-radius: 5px;
+    left: 0;
+    top: 0px;
+    transition: all 0.3s ease 0s;
+  }
+
+  .burger:before, .burger:after {
+    content: '';
+    background-color: #000;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    border-radius: 5px;
+    left: 0;
+    transition: all 0.3s ease 0s;
+  }
+
+  .burger:before{
+    top:9px;
+  }
+
+  .burger:after {
+    bottom: 0px;
+  }
+
+  .burger.active:before{
+    transform: rotate(45deg);
+    top: 9px;
+  }
+  .burger.active:after{
+    transform: rotate(-45deg);
+    bottom:8px;
+  }
+  .burger.active span {
+    transform: scale(0);
+  }
+  .nav__items {
+    padding-top: 60px;
+    margin-top: 20px;
+    position: fixed;
+    top:-100%;
+    left: 0;
+    width: 100%;
+    height: 340px;
+    background-color: #fff;
+    flex-wrap: wrap;
+    transition: all 0.5s;
+  }
+
+  .nav__items.active {
+    top:0;
+    transition: all 0.5s;
+  }
+
+
+  .list {
+    width: 100%;
+    margin: 0px;
+    height: 30px;
+  }
+
+  .nav__item {
+    margin: 3px 0px;
+    font-size: 20px;
+    top: -100%;
+    transition: all 0.5s;
+    text-align: center;
+  }
+
+  .nav__items.active .nav__item {
+    top:0;
+    transition: all 0.5s;
+  }
+
+  .tel {
+    text-align: center;
+    width: 100%;
+  }
+
+  .container {margin: 30px 0px;}
+
+  .glavnaya {display: block;
+    padding: 0px 20px;}
+  .about, .director {
+    width: 100%;
+    margin: 20px 0px;
+    font-size: 1em;
+  }
+  p {font-size: 3em}
+
+  .teachers_box, .ss {
+    margin: 20px;
+  }
+
+  .big {
+    margin: 20px 0px;
+  }
+
+  .teachers .big h1 {
+    font-size: 1.2em;
+  }
+
+  .teachers_box h1 {
+    font-size: 0.8em;
+  }
+
 }

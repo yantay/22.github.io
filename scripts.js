@@ -26,3 +26,9 @@ $(document).ready(function(){
         $('body,html').animate({scrollTop: destination }, 1000);
     });
 });
+
+$(document).ready(function(){
+    $('.burger').click(function(event) {
+        $('.burger, .nav__items').toggleClass('active');
+    });
+});

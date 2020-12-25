@@ -29,6 +29,6 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $('.burger').click(function(event) {
-        $('.burger, .nav__items').toggleClass('active');
+        $('.burger, .nav__items, .lang').toggleClass('active');
     });
 });

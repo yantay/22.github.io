@@ -1,0 +1,211 @@
+*{
+ margin: 0;
+ padding: 0;
+ font-family: 'Roboto Slab', serif;
+ font-family: 'Viaoda Libre', "cursive";
+}
+.cafe{
+ 
+ color:white;
+ padding-top: 15%;
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+ font-size: 100px;
+ font-family: 'Roboto Slab', serif;
+ font-family: 'Viaoda Libre', "cursive";
+ letter-spacing: 4px;
+}
+.link li{
+ list-style: none;
+ float: right;
+ padding: 5px 10px;
+ margin-right: 20px;
+}
+.sign-in{
+ border:1px solid white;
+ margin-top: 1px;
+}
+.link li a{
+ text-decoration: none;
+font-size: 30px;
+font-family: 'Viaoda Libre', "cursive";
+ display: inline-block;
+ color:white;
+ transition: 0.6ms;
+
+}
+.link li a:hover{
+ background: transparent;
+ text-shadow: 0 2px 15px rgba(255,255,255);
+ text-decoration: underline;
+}
+
+.first{
+ background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url("./pexels-photo-6341164.jpeg");
+ background-size:cover;
+ width: 100%;
+ height: 70%;
+ min-height: 159vh;
+ background-attachment: fixed;
+ position: relative;
+ position: relative;
+ background-attachment: local;
+}
+div{
+ display: inline-block;
+}
+ 
+div .img-1{
+ height: 320px;
+ width: 210px;
+ background-image:url("./cafe.jpeg");
+ position: relative;
+}
+.img-1{
+ position: absolute;
+ transform: translate(250px,10px);
+ transition: all 0.5s linear;
+ 
+}
+.img-1:hover{
+ background-image: url(./cafe2.jpeg);
+ background-size: cover;
+ 
+}
+div .img-2{
+ height: 210px;
+ width: 320px;
+ background-image:url("./летник.jpeg");
+ position: relative;
+ 
+}
+.img-2{
+ position: absolute;
+ transform: translate(450px,10px);
+ transition: all 0.5s linear;
+
+}
+.img-2:hover{
+ background-image: url(./летник2.jpeg);
+ background-size: cover;
+ 
+}
+
+div .img-3{
+ height: 210px;
+ width: 320px;
+ background-image:url("./staff.jpeg");
+ position: relative;
+ 
+}
+.img-3{
+ position: absolute;
+ transform: translate(590px,10px);
+ 
+ transition: all 0.5s linear;
+
+}
+.img-3:hover{
+ background-image: url(./staff2.jpeg);
+ background-size: cover;
+}
+
+ .text-1{
+ transform: translate(200px 10px);
+ height: 320px;
+ width: 210px;
+ color:white;
+ position: absolute;
+ padding: 10px 250px;
+}
+.text-2{
+ 
+ transform: translate(280px,10px);
+ height: 210px;
+ width: 320px;
+ color: white;
+ position: absolute;
+ padding: 10px 400px;
+}
+.text-3{
+ transform: translate(680px,10px);
+ height: 210px;
+ width: 320px;
+ color: white;
+ position: absolute;
+ padding-left: 470px;
+ padding-top:10px;
+
+}
+p{
+ font-family:'Viaoda Libre', "cursive";
+ line-height: 25px;
+ font-size: 20px;
+ text-shadow: 0 2px 15px rgba(255,255,255);
+}
+
+.second{
+ background-attachment: fixed;
+ 
+}
+.text-menu{
+ margin-top: 25px;
+ padding-left:40%;
+ width: 300px;
+ text-align: center;
+ justify-content: center;
+ font-size: 60px;
+ font-family: 'Roboto Slab', serif;
+ font-family: 'Viaoda Libre', "cursive";
+ letter-spacing: 4px;
+}
+.menu-1{
+ padding:10px 230px;
+ 
+}
+.menu-2{
+ padding-right: 160px;
+ }
+
+ .third{
+  background-attachment: fixed;
+  align-items: center;
+  
+ }
+ .menu-3{
+  align-items: center;
+  padding-left:590px;
+ }
+ .end{
+ 
+  background-size: cover;
+  background-attachment: fixed;
+  background:gray;
+  width: 1690px;
+  height: 200px;
+ }
+
+ .fab{
+  padding:10px 15px;
+  cursor: pointer;
+ }
+ .fab:hover{
+  opacity: 0.7;
+ }
+
+ .c{
+  float: right;
+  margin-top: 150px;
+  margin-right: 5px;
+ }
+ .last{
+width: 450px;
+height: 100px;
+line-height: 3;
+margin-left: 10px;
+cursor: pointer;
+margin-top: 50px;
+word-spacing: 5px;
+ }
+ 

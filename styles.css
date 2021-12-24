@@ -43,7 +43,7 @@ text-shadow : none;
 }
 
 .header {
-  background: url('img/6.jpg') no-repeat center top / cover;
+  background: url('/6.jpg') no-repeat center top / cover;
   height: 950px;
   width: 100%;
 }
@@ -155,7 +155,7 @@ p {
 }
 
 .teachers__back {
-  background: url('20.jpg') no-repeat center top / cover;
+  background: url('/20.jpg') no-repeat center top / cover;
   align-items: center;
   height: 1000px;
   padding-top: 400px;
@@ -163,7 +163,7 @@ p {
 }
 
 .students__back {
-  background: url('2.jpg') no-repeat center top / cover;
+  background: url('/2.jpg') no-repeat center top / cover;
   align-items: center;
   height: 1000px;
   padding-top: 400px;
@@ -198,27 +198,27 @@ p {
 
 
 .f1 {
-  background: url('./img/1f.jpg') no-repeat center top / cover;
+  background: url('./1f.jpg') no-repeat center top / cover;
 }
 
 .f2 {
-  background: url('./img/2f.jpg') no-repeat center top / cover;
+  background: url('./2f.jpg') no-repeat center top / cover;
 }
 
 .f3 {
-  background: url('./img/3f.jpg') no-repeat center top / cover;
+  background: url('./3f.jpg') no-repeat center top / cover;
 }
 
 .f4 {
-  background: url('./img/4f.jpg') no-repeat center top / cover;
+  background: url('./4f.jpg') no-repeat center top / cover;
 }
 
 .f5 {
-  background: url('./img/5f.jpg') no-repeat center top / cover;
+  background: url('./5f.jpg') no-repeat center top / cover;
 }
 
 .f6 {
-  background: url('./img/6f.jpg') no-repeat center top / cover;
+  background: url('./6f.jpg') no-repeat center top / cover;
 }
 
 .f7 {
@@ -247,7 +247,7 @@ p {
 
 
 .eshe {
-  background: url('11.jpg') no-repeat center top / cover;
+  background: url('./11.jpg') no-repeat center top / cover;
   height: 950px;
   width: 100%;
 }

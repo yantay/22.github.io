@@ -43,7 +43,7 @@ text-shadow : none;
 }
 
 .header {
-  background: url('/6.jpg') no-repeat center top / cover;
+  background: url('6.jpg') no-repeat center top / cover;
   height: 950px;
   width: 100%;
 }
